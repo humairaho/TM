@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2018 at 01:49 AM
+-- Generation Time: Dec 26, 2018 at 08:13 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
@@ -32,6 +32,7 @@ USE `tm`;
 
 CREATE TABLE `assignment_result` (
   `TEAM_ID` varchar(50) NOT NULL,
+  `SKILL` varchar(50) NOT NULL,
   `TASK_ID` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
