@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2018 at 01:23 AM
+-- Generation Time: Dec 26, 2018 at 01:49 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
@@ -23,6 +23,17 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `tm` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `tm`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `assignment_result`
+--
+
+CREATE TABLE `assignment_result` (
+  `TEAM_ID` varchar(50) NOT NULL,
+  `TASK_ID` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
